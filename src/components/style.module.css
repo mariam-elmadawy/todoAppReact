@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.header {
+  background-color: teal;
+  color: white;
+  font-size: 25px;
+  padding: 1rem;
+}
+.todoForm {
+  margin: 20px auto;
+  text-align: center;
+}
+.inputForm {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: #eee;
+  font-size: 14px;
+  text-align: center;
+  width: 15rem;
+}
+.submitBtn {
+  padding: 1rem;
+  border: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: white;
+  background-color: teal;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.todoItem {
+  border: 2px solid #eee;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+}
+
+.todoName {
+  padding: 0 10px;
+  color: #222;
+}
+
+.delete {
+  all: unset;
+  background-color: red;
+  color: white;
+  margin: 15px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
